@@ -15,13 +15,15 @@ class MainMenu
 private:
 	int totalOptions;
 	int currentOption;
+	Texture normalMenuButton;
+	Texture hoverMenuButton;
 	MainMenuState state;
 
 public:
 	MainMenu();
-	~MainMenu() = default;
+	~MainMenu();
 
 	void Update();
-	void Draw(const int fontSize, const int spacing, const Font& font, const Color& color, const Color& boxColor) const;
+	void Draw(const int fontSize, const int spacing, const Font& font1, const Font& font2, const Color& color1, const Color& color2, const Color& backgroundColor) const;
 };
 

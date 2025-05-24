@@ -10,6 +10,6 @@ public:
 	Game();  
 	~Game();  
 
-	void Update();  
-	void Draw(const int fontSize, const int spacing, const Font& font, const Color& color, const Color& boxColor) const;
+	void Update();
+	void Draw(const int fontSize, const int spacing, const Font& font1, const Font& font2, const Color& color1, const Color& color2, const Color& backgroundColor) const;
 };

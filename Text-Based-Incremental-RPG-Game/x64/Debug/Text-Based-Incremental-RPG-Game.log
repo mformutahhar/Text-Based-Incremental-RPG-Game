@@ -1,4 +1,8 @@
-﻿  main-menu.cpp
-  Text-Based-Incremental-RPG-Game.vcxproj -> C:\Users\l2405\source\repos\Text-Based-Incremental-RPG-Game\x64\Debug\Text-Based-Incremental-RPG-Game.exe
+﻿  game.cpp
+  main-menu.cpp
+  main.cpp
+C:\Users\l2405\source\repos\Text-Based-Incremental-RPG-Game\Text-Based-Incremental-RPG-Game\src\main.cpp(46,64): warning C4244: 'argument': conversion from 'float' to 'const int', possible loss of data
+  Generating Code...
+  Text-Based-Incremental-RPG-Game.vcxproj -> C:\Users\l2405\Source\Repos\Text-Based-Incremental-RPG-Game\x64\Debug\Text-Based-Incremental-RPG-Game.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.

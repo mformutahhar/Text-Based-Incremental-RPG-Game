@@ -132,14 +132,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\game.cpp" />
+    <ClCompile Include="src\imageToCodeConverter.cpp" />
     <ClCompile Include="src\main-menu.cpp" />
     <ClCompile Include="src\font-manager..cpp" />
-    <ClCompile Include="src\Text-Based-Incremental-RPG-Game.cpp" />
+    <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\theme.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="resource1.h" />
     <ClInclude Include="src\glassmorphism-effect.h" />
     <ClInclude Include="src\game.h" />
+    <ClInclude Include="src\imageData.h" />
     <ClInclude Include="src\main-menu.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="src\font-manager.h" />
@@ -150,11 +153,13 @@
     <Font Include="assets\fonts\LuckiestGuy-Regular.ttf" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="assets\images\home.png" />
     <Image Include="assets\images\icon.ico" />
     <Image Include="assets\images\icon.png" />
+    <Image Include="assets\images\mainButton.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="Resource.rc" />
+    <ResourceCompile Include="resources.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
